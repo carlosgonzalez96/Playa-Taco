@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'sign';
+    src: url(../fonts/SignPainter-HouseSlant.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'norm';
+    src: url(../fonts/SignPainter-HouseScript.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'digit';
+    src: url(../fonts/Digitalt.otf) format('opentype');
+}
+
+/*food menu styles*/
+#main-menu-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#titles {
+    border-bottom: 5px dotted #000000;
+}
+
+.menu-title {
+    font-family: 'digit';
+    font-size: 50pt;
+    text-align: center;
+}
+
+.taco-title, .burrito-title, .protein-title, .extra-title, .sides-title {
+    font-family: 'sign';
+    font-size: 40pt;
+}
+
+h3 {
+    font-family: 'norm';
+}
+
+#entrees, #extras-container, #sides-container {
+    border-bottom: 5px dotted #000000;
+}
+
+.prices {
+    color: #F05133;
+}
+
+#tacos, #extras {
+    float: right;
+    width: 45%;
+}
+
+#burritos, #protein {
+    width: 45%;
+}
+
+#burritos p, #tacos p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#burritos h3, #tacos h3, #cater-items h3, #cater-desserts h3, #cater-appe h3, #cater-bev h3 {
+    font-size: 25pt;
+}
+
+#extras, #protein, #sides {
+    font-size: 25pt;
+}
+
+#sides {
+    overflow: hidden;
+}
+
+#sides h3 {
+    float: left;
+    margin-right: 10px;
+}
+
+/*cater menu styles*/
+
+#cater-menu-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#cater-items p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cater-title, .dessert-title, .appe-title, .bev-title, .inq-txt, .inq-num {
+    font-family: 'sign';
+    font-size: 40pt;
+}
+
+#cater-desserts {
+    float: right;
+    width: 45%;
+}
+
+#cater-items {
+    width: 45%;
+}
+
+#items-container {
+    border-bottom: 5px dotted #000000;
+}
+
+#cater-items-two {
+    border-bottom: 5px dotted #000000;
+    text-align: center;
+}
+
+#inquire {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*main menu*/
+#menu-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#menu-promo {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 20px;
+    overflow: hidden;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#menu-promo1 {
+    float: right;
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/location2.jpg);
+    background-size: 1000px;
+    background-position: -200px -280px;
+    transition: .5s ease;
+}
+
+#menu-promo1 h2, #menu-promo2 h2 {
+    line-height: 600px;
+    font-family: 'digit';
+    font-size: 35pt;
+}
+
+#menu-promo1{
+    color: #FFFFFF;
+}
+
+#menu-promo2{
+    color: #FFFFFF;
+}
+
+#menu-promo1:hover {
+    color: #F05133;
+}
+
+#menu-promo2:hover {
+    color: #009fc2;
+}
+
+#menu-promo2 {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/beverages-brunch-cocktail-5317.jpg);
+    background-size: 1000px;
+    background-position: -250px -80px;
+    transition: .5s ease;
+}
+
+#menu-promo a {
+    text-decoration: none;
+
+}
+
+.build-link {
+    text-decoration: none;
+}
+
+#menu-promo3 {
+    width: 80%;
+    height: 200px;
+    margin: 0px auto;
+    background-image: url(../images/burrito-chicken-close-up-461198.jpg);
+    background-size: 1200px;
+    background-position: -100px -250px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'digit';
+    font-size: 35pt;
+    transition: .5s ease; 
+}
+
+#menu-promo3 h2 {
+    line-height: 200px;
+
+}
+
+#menu-promo3:hover {
+    color: #FFE363;
+}

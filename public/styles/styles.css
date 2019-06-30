@@ -1,0 +1,427 @@
+@font-face {
+    font-family: 'sign';
+    src: url(../fonts/SignPainter-HouseSlant.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'norm';
+    src: url(../fonts/SignPainter-HouseScript.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'digit';
+    src: url(../fonts/Digitalt.otf) format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url('../images/shrimp.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shrimp-promo {
+    font-family: 'norm';
+    font-size: 50pt;
+    margin-right: 200px;
+    margin-top: 15%;
+    text-align: center;
+    width: 450px;
+    float: right;
+}
+
+nav {
+    height: 50px;
+    background-color: #009fc2;
+    padding: 5px;
+    border-bottom: 2px solid #FFE363;
+}
+
+img#logo {
+    width: 300px;
+    float: left;
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul#navmenu {
+    float: right;
+    line-height: 50px;
+}
+
+ul#navmenu li {
+    width: 125px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+ul#navmenu a {
+    font-family: 'sign';
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 20pt;
+}
+
+.sub1 {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+ul#navmenu ul.sub1 {
+    display: block;
+    position: absolute;
+    display: none;
+}
+
+ul#navmenu li:hover .sub1 {
+    display: block;
+    
+}
+
+ul#navmenu .sub1 a {
+    margin-top: 3px;
+    font-size: 15pt;
+}
+
+ul#navmenu .sub1 a:hover, ul#navmenu a:hover {
+    color: #FFE363;
+    text-shadow: 2px 2px #000000;
+}
+
+/* main content styles */
+.promos {
+    width: 900px;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.promo1 {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 4px dotted goldenrod;
+    padding: 5px;
+    float: left;
+}
+
+.promo1-container {
+    width: 400px;
+    height: 350px;
+}
+
+.promo1-container {
+    background-image: url(../images/burrito.jpg);
+    background-size: 500px;
+    background-position-x: -20px;
+}
+
+.promo1-desc {
+    font-family: 'sign';
+    font-size: 18pt;
+}
+
+.promo2 {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 4px dotted goldenrod;
+    padding: 5px;
+    float: right;
+}
+
+.promo2-container {
+    width: 400px;
+    height: 350px;
+    background-image: url(../images/taco2.jpg);
+    background-size: 500px;
+    background-position-x: -20px;
+}
+
+.promo2-desc {
+    font-family: 'sign';
+    font-size: 18pt;
+}
+
+#guac-promo {
+  width: 100%;
+  height: 300px;
+  margin-top: 40px;
+  background-image: url(../images/Guacamole_3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -300px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 300px;
+}
+
+.guac-desc {
+    color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50pt;
+
+}
+
+#build-order-container {
+    width: 900px;
+    margin: 0px auto;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#build-order-container a {
+    text-decoration: none;
+}
+
+#build-order-pic {
+    width: 900px;
+    height: 300px;
+    margin: 0px auto;
+    background-image: url(../images/beverages-brunch-cocktail-5317.jpg);
+    background-size: 100%;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+}
+
+#build-order-content {
+    text-align: center;
+}
+
+.build-order-desc {
+    font-family: 'norm';
+    font-size: 30pt;
+}
+
+#build-order-button {
+    width: 200px;
+    height: 50px;
+    margin: 0px auto;
+    border-radius: 3px;
+    border: 2px solid #009fc2;
+    background-color: #FFE363;
+    font-family: 'sign';
+    font-size: 25pt;
+    text-align: center;
+    line-height: 50px;
+    color: #000000;
+    transition: 0.3s;
+}
+
+#build-order-button:hover {
+    background-color: rgb(255, 209, 5);
+}
+
+/*footer Styles*/
+#foot-navbar {
+    background-image: url(../images/blue-waves.png);
+    border-top: 2px solid #FFE363;
+    overflow: hidden;
+}
+
+#footmenu, #footmenu2 {
+    float: right;
+}
+
+#footmenu li, #footmenu2 li {
+    width: 100px;
+    text-align: center;
+}
+
+#footmenu a, #footmenu2 a {
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#footmenu a:hover, #footmenu2 a:hover {
+    text-decoration: underline;
+}
+
+/*Nutrition Styles*/
+
+#nut-container {
+    width: 80%;
+    margin: 0px auto;    
+}
+
+#nut-content-container {
+    width: 100%;
+    margin-top: 20px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+#nut-entrees, #nut-sides, #nut-protein, #nut-extras {
+    float: left;
+    width: 23%;
+    margin-right: 20px;
+}
+
+.nut-title {
+    font-family: 'sign';
+    font-size: 40pt;
+}
+
+.gf {
+    color: green;
+    font-family: 'norm';
+}
+
+.nut-txt {
+    font-family: 'norm';
+}
+
+#nut-promo {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/taco.jpg);
+    background-size: 100%;
+    background-position: 0px -300px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#nut-promo {
+    line-height: 400px;
+    color: rgb(255, 209, 5);
+    font-family: 'digit';
+    font-size: 40pt;
+    text-shadow: 2px 2px #000000;
+}
+
+/*About Us styles*/
+
+#about-container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+#profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#profile-pic {
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    border-radius: 50%;
+    background-image: url(../images/pedro-dolphin.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.profile-name {
+    font-family: 'sign';
+    font-size: 50pt;
+    color: #009fc2;
+    text-shadow: 2px 2px #000000;
+}
+#bio {
+    text-align: center;
+}
+#bio p {
+    font-family: 'sign';
+    font-size: 25pt;
+}
+
+/*Contact Styles*/
+#contact-container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+form {
+    width: 30%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: #009fc2;
+
+}
+
+form h2 {
+    font-family: 'sign';
+    font-size: 30pt;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: ease-in 3ms;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0px;
+    background-color: #f05133;
+    color: #FFFFFF;
+    font-family: 'sign';
+    font-size: 25pt;
+    cursor: pointer;
+    transition: ease-in 0.3ms;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0 0 15px #FFE363;
+    border: 1px solid #FFE363;
+}
+
+form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: ease-in 0.3ms;
+}
+
+input[type=text]:focus, input[type=email]:focus, form textarea:focus {
+    border: 3px solid #FFE363;
+    transition: 0.3s;
+}
+
+#fillout {
+    text-align: center;
+    font-family: 'sign';
+    font-size: 20pt;
+    /*color: #f05133;*/
+    
+}
